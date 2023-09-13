@@ -1,0 +1,28 @@
+body {
+    background: #14213d;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+    width: 20rem;
+    background: #111827;
+}
+
+.card:hover {
+    top: -5px;
+    transition: all 1s ease-out;
+    box-shadow: 5px 5px 8px rgba(179, 178, 178, 0.2);
+}
+
+form, .form-control, .form-control:focus {
+    background: #334770;
+}
+
+.crop-text-4 {
+    -webkit-line-clamp: 4;
+    overflow : hidden;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
